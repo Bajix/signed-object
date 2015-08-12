@@ -1,0 +1,29 @@
+{
+  "name": "signed-object",
+  "version": "0.0.0",
+  "description": "Signed object creation, and verification complete with salting",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bajix/signed-object.git"
+  },
+  "author": "Thomas Sieverding (Thomas@bajix.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bajix/signed-object/issues"
+  },
+  "homepage": "https://github.com/Bajix/signed-object#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "faker": "^3.0.1",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "b64url": "^1.0.3",
+    "config": "^1.15.0",
+    "q": "^1.4.1"
+  }
+}
