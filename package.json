@@ -1,6 +1,6 @@
 {
   "name": "signed-object",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Signed object creation, and verification complete with salting",
   "main": "index.js",
   "scripts": {
