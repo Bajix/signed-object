@@ -8,7 +8,7 @@ config.util.setModuleDefaults('signedObject', {});
 
 function Vault( options ) {
   if (!(this instanceof Vault)) {
-    return new Vault(this);
+    return new Vault(options);
   }
 
   this.options = config.util.extendDeep({}, config.signedObject, options);
