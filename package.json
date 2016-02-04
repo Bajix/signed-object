@@ -17,13 +17,13 @@
   },
   "homepage": "https://github.com/Bajix/signed-object#readme",
   "devDependencies": {
-    "chai": "^3.2.0",
+    "chai": "^3.5.0",
     "faker": "^3.0.1",
-    "mocha": "^2.2.5"
+    "mocha": "^2.4.5"
   },
   "dependencies": {
     "b64url": "^1.0.3",
-    "config": "^1.15.0",
+    "config": "^1.19.0",
     "q": "^1.4.1"
   }
 }
